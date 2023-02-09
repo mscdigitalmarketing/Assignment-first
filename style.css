@@ -1,0 +1,72 @@
+/* header styles */
+header {
+    background-image: url('../images/banner/banner2.png');
+    height: 809px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.header-text{
+    margin-top: 200px;
+    text-align: right;
+    height: 228px;
+    width: 525px;
+    left: 845px;
+    top: 216px;
+    padding: 0px 50px;
+}
+
+.header-paragraph{
+    height: 78px;
+    top: 468px;
+    border-radius: nullpx;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+.primary-btn{
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    background: rgb(16, 131, 238);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* End of header styles */
+
+
+
+.middle-section{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fffdfd;
+}
+.middle-text{ 
+    height: 228px;
+    width: 525px;
+    left: 845px;
+    top: 216px;
+    padding: 0px 50px;
+}
+
+.middle-headline, .middle-para{
+    width: 374px;
+    height: 70px;
+    left: 862px;
+    top: 1178px;
+    text-align: justify;
+}
+middle-para
