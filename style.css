@@ -5,6 +5,7 @@
 
 header {
     background-image: url("https://www.linkpicture.com/q/banner2_15.png");
+    background-size: cover;
     height: 809px;
     width: 100%;
     background-repeat: no-repeat;
@@ -18,7 +19,7 @@ header {
     width: 525px;
     left: 845px;
     top: 216px;
-    padding: 0px 50px;
+    padding-right: 200px;
 }
 
 .header-paragraph{
@@ -62,6 +63,7 @@ header {
     left: 845px;
     top: 216px;
     padding: 0px 50px;
+    
 }
 
 .middle-headline, .middle-para{
@@ -78,16 +80,19 @@ header {
 
 .skills-section h2{ 
     text-align: center;
-    padding: 40px;
+    padding-bottom: 50px;
 }
 
-.skills{
+.skills
+{
     display: flex;
     justify-content: center;
     gap: 100px;
     text-align: center;
+    padding-bottom: 50px;
 }
-    .skills p{
+
+.skills p{
         color: #737272;
 
     }
