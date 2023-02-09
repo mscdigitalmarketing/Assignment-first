@@ -47,12 +47,10 @@ header {
 
 
 
-.middle-section{
-
+.about-me{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fffdfd;
 }
 .middle-text{ 
     height: 228px;
@@ -69,4 +67,3 @@ header {
     top: 1178px;
     text-align: justify;
 }
-middle-para
