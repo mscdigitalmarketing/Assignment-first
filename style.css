@@ -1,4 +1,8 @@
 /* header styles */
+*{
+    margin: 0px;
+}
+
 header {
     background-image: url("https://www.linkpicture.com/q/banner2_15.png");
     height: 809px;
@@ -67,3 +71,24 @@ header {
     top: 1178px;
     text-align: justify;
 }
+
+
+
+/* Skills-Sections Styles */
+
+.skills-section h2{ 
+    text-align: center;
+    padding: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+    .skills p{
+        color: #737272;
+
+    }
+    
