@@ -56,6 +56,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .middle-text{ 
     height: 228px;
@@ -89,7 +91,7 @@ header {
     justify-content: center;
     gap: 100px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 
 .skills p{
@@ -97,3 +99,59 @@ header {
 
     }
     
+
+/* Banner style */
+
+.banner{
+    padding-bottom: 200px;
+}
+
+.banner-text{
+
+    background-image: url("https://www.linkpicture.com/q/watch_3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 30%);
+    padding-top: 100px; 
+    padding-left: 30px;
+}
+.banner-button{
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+}
+
+
+/* Footer styles */
+footer{
+    background: #151414;
+    height: 400px;
+    left: 0px;
+    top: 500px;
+}
+.footer-section
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 200px;
+}
+
+.footer-section .text{
+    width: 485px;
+}
